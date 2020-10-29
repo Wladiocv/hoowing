@@ -11,6 +11,15 @@
   grid-area: footer;
 }
 
+.viewport-header {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .container {
   display: grid;
   grid-template-columns:50px 50px 50px 50px;
@@ -29,3 +38,4 @@ video {
   top: 0;
   left: 0;
 }
+
